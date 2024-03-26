@@ -5,9 +5,9 @@ import Stack from "./Stack";
 
 
 export default props => (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
         <NavigationContainer>
-            <Stack/>
+            <Stack />
         </NavigationContainer>
     </SafeAreaView>
 )
